@@ -1,5 +1,6 @@
 * {
     font-family: Georgia, "Times New Roman", serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -16,6 +17,10 @@ a {
     font-weight: 300;
     color: white;
     background-color: darkolivegreen;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 40px;
+    display: inline-block;
 
 
 }
@@ -30,5 +35,6 @@ ul {
 }
 
 .menu {
-    list-style-type: none;
+    border-style: dashed;
+    padding: 20px;
 }
